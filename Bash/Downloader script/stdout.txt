@@ -1,0 +1,8 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=0gBTN5HlekU
+[youtube] 0gBTN5HlekU: Downloading webpage
+[youtube] 0gBTN5HlekU: Downloading ios player API JSON
+[youtube] 0gBTN5HlekU: Downloading android player API JSON
+[youtube] 0gBTN5HlekU: Downloading m3u8 information
+[info] 0gBTN5HlekU: Downloading 1 format(s): 18
+[download] Destination: D:\videos/Silegei Nakaza Mwendo (Official Video) - St. Cecilia 3rd Mass Choir Madre Teresa Zimmerman.mp4
+[download]   0.0% of    7.85MiB at   86.23KiB/s ETA 01:33[download]   0.0% of    7.85MiB at  223.01KiB/s ETA 00:36[download]   0.1% of    7.85MiB at  468.14KiB/s ETA 00:17[download]   0.2% of    7.85MiB at  913.38KiB/s ETA 00:08[download]   0.4% of    7.85MiB at    1.68MiB/s ETA 00:04[download]   0.8% of    7.85MiB at    3.12MiB/s ETA 00:02[download]   1.6% of    7.85MiB at    4.11MiB/s ETA 00:01[download]   3.2% of    7.85MiB at    4.88MiB/s ETA 00:01[download]   6.4% of    7.85MiB at    4.47MiB/s ETA 00:01[download]  12.7% of    7.85MiB at    5.18MiB/s ETA 00:01[download]  25.5% of    7.85MiB at    2.93MiB/s ETA 00:01[download]  50.9% of    7.85MiB at    1.40MiB/s ETA 00:02[download]  63.7% of    7.85MiB at    1.27MiB/s ETA 00:02[download]  75.4% of    7.85MiB at    1.20MiB/s ETA 00:01[download]  87.1% of    7.85MiB at    1.15MiB/s ETA 00:00[download]  98.9% of    7.85MiB at    1.12MiB/s ETA 00:00[download] 100.0% of    7.85MiB at    1.12MiB/s ETA 00:00[download] 100% of    7.85MiB in 00:00:07 at 1.09MiB/s   

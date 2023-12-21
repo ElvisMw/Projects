@@ -1,0 +1,24 @@
+2023-12-15 18:42:47 - Door closed automatically
+2023-12-15 18:42:47 - Access denied: 
+2023-12-15 18:43:12 - Door closed automatically
+2023-12-15 18:46:07 - Access denied: passowrd
+2023-12-15 18:46:57 - Door closed automatically
+2023-12-15 18:47:27 - Access granted: Elvis
+2023-12-15 18:47:52 - Door closed automatically
+2023-12-15 18:52:35 - Access denied: letty
+2023-12-15 19:17:29 - Access granted: Elvis
+2023-12-15 19:18:13 - Access granted: Letty
+2023-12-15 19:18:29 - Access denied: ffff
+2023-12-15 19:18:46 - Door closed automatically
+2023-12-15 19:18:59 - Door closed automatically
+2023-12-15 19:19:32 - Access denied: 
+2023-12-15 19:19:44 - Access denied: 
+2023-12-15 19:24:05 - Access granted: Elvis
+2023-12-15 19:24:16 - Door closed automatically
+2023-12-15 19:24:46 - Access denied: Guest
+2023-12-15 19:24:57 - Access denied: Guest
+2023-12-15 19:25:08 - Access granted: Letty
+2023-12-15 19:25:48 - Access denied: lvis
+2023-12-15 19:27:15 - Door closed automatically
+2023-12-15 19:27:18 - Door closed automatically
+2023-12-15 19:27:22 - Access granted: Elvis

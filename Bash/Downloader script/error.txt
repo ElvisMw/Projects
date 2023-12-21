@@ -1,0 +1,2 @@
+2023-12-18 12:51:06 WARNING: [youtube] Failed to download m3u8 information: <urllib3.connection.HTTPSConnection object at 0x7ff2171d0be0>: Failed to establish a new connection: [Errno 101] Network is unreachable
+2023-12-18 15:50:34 ./Downloader_and_pidstat.sh: line 41: yt-dlp: command not found
