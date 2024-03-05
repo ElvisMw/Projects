@@ -4,9 +4,11 @@ class MyCmd(cmd.Cmd):
     """A simple command line interpreter"""
 
     def do_greet(self, line):
+        """- Greets user."""
         print(f"Hello World")
 
     def do_EOF(self, line):
+        """- Exits cmd with keyboard interrupt."""
         print(f"Exiting Program. Bye!")
         return True
 
