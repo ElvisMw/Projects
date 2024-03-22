@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #87CEEB; /* Sky Blue */
+    }
+
+    .tray {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .egg {
+      position: relative;
+      width: 100px;
+      height: 120px;
+      background-color: #FFD700; /* Gold */
+      border-radius: 50%;
+      overflow: hidden;
+      animation: shakeEgg 1s ease infinite;
+    }
+
+    .crack {
+      position: absolute;
+      width: 0;
+      height: 100%;
+      background-color: #A52A2A; /* Brown */
+      transform-origin: 0 50%;
+    }
+
+    .chick {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 60px;
+      display: none;
+      animation: hatch 2s ease-out forwards;
+    }
+
+    @keyframes shakeEgg {
+      0%, 100% {
+        transform: translateX(0);
+      }
+      25%, 75% {
+        transform: translateX(-5px);
+      }
+      50% {
+        transform: translateX(5px);
+      }
+    }
+
+    @keyframes hatch {
+      0% {
+        transform: translateY(0) rotate(0);
+      }
+      50% {
+        transform: translateY(-50px) rotate(180deg);
+      }
+      100% {
+        transform: translateY(-120px) rotate(360deg);
+      }
+    }
+
+    @keyframes expandCrack {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="tray">
+    <!-- Repeat the egg and cracking elements for each egg in the tray -->
+    <!-- You can adjust the number of eggs as needed -->
+    <div class="egg" id="egg1">
+      <div class="crack"></div>
+      <div class="chick"></div>
+    </div>
+
+    <div class="egg" id="egg2">
+      <div class="crack"></div>
+      <div class="chick"></div>
+    </div>
+
+    <div class="egg" id="egg3">
+      <div class="crack"></div>
+      <div class="chick"></div>
+    </div>
+
+    <div class="egg" id="egg4">
+      <div class="crack"></div>
+      <div class="chick"></div>
+    </div>
+
+    <div class="egg" id="egg5">
+      <div class="crack"></div>
+      <div class="chick"></div>
+    </div>
+
+    <div class="egg" id="egg6">
+      <div class="crack"></div>
+      <div class="chick"></div>
+    </div>
+
+    <div class="egg" id="egg7">
+      <div class="crack"></div>
+      <div class="chick"></div>
+    </div>
+
+    <div class="egg" id="egg8">
+      <div class="crack"></div>
+      <div class="chick"></div>
+    </div>
+
+    <div class="egg" id="egg9">
+      <div class="crack"></div>
+      <div class="chick"></div>
+    </div>
+
+    <div class="egg" id="egg10">
+      <div class="crack"></div>
+      <div class="chick"></div>
+    </div>
+
+    <div class="egg" id="egg11">
+      <div class="crack"></div>
+      <div class="chick"></div>
+    </div>
+
+    <div class="egg" id="egg12">
+      <div class="crack"></div>
+      <div class="chick"></div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get all egg elements in the tray
+      const eggs = document.querySelectorAll('.egg');
+
+      // Attach event listeners to each egg
+      eggs.forEach((egg, index) => {
+        egg.addEventListener('animationend', function() {
+          egg.style.animation = 'none'; // Remove the egg shaking animation
+          createCracks(egg); // Create random cracks for the specific egg
+          egg.querySelector('.chick').style.display = 'block'; // Display the chick
+        });
+      });
+
+      function createCracks(egg) {
+        for (let i = 0; i < 5; i++) {
+          const crack = document.createElement('div');
+          crack.className = 'crack';
+          crack.style.left = `${Math.random() * 100}%`;
+          crack.style.animation = 'expandCrack 0.5s ease-out forwards';
+          egg.appendChild(crack);
+        }
+      }
+    });
+  </script>
+</body>
+</html>

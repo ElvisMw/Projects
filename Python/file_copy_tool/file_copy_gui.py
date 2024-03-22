@@ -86,12 +86,26 @@ class FileCopyApp(QWidget):
         self.show()
 
     def browse_from_file(self):
+        """
+        Opens a file dialog to browse and select a file.
+
+        This function uses the `QFileDialog` class to open a file dialog window and allows the user to select a file. The selected file path is then set as the text of the `entry_from` widget.
+
+        Parameters:
+            self (object): The instance of the class.
+
+        Returns:
+            None
+        """
         file_dialog = QFileDialog()
         filename = file_dialog.getOpenFileName()[0]
         if filename:
             self.entry_from.setText(filename)
 
     def browse_to_file(self):
+        """
+        A method to browse to a file using a file dialog, set the selected file's name to an entry widget.
+        """
         file_dialog = QFileDialog()
         filename = file_dialog.getSaveFileName()[0]
         if filename:
