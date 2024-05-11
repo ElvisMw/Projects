@@ -1,3 +1,2 @@
-// Work in progress. Ignore all changes in this folder
-
-EMS.py
+# Standardize variable names and improve readability
+EMS/  # Standardize directory name
