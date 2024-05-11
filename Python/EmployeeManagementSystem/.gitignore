@@ -1,3 +1,4 @@
-# Standardize variable names and improve readability
-EMS/  # Standardize directory name
-*.pyc  # Ignore .pyc files
+
+EMS/
+*.py
+whiteboard.txt
