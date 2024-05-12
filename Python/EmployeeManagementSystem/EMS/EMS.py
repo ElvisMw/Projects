@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Employee Management System Using Python - Sagar Developer """
+""" Employee Management System Using Python """
 
 from os import system
 import re
