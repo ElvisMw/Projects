@@ -1,0 +1,8 @@
+<!-- inventory/templates/inventory/index.html -->
+{% extends 'inventory/base.html' %}
+
+{% block content %}
+    <a href="{% url 'supplier_list' %}">Suppliers</a>
+    <a href="{% url 'product_list' %}">Products</a>
+    <a href="{% url 'inventory_list' %}">Inventory</a>
+{% endblock %}

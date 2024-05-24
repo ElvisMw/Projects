@@ -1,0 +1,13 @@
+{% extends 'inventory/base.html' %}
+
+{% block content %}
+    <h1>Supplier List</h1>
+    <ul>
+        {% for supplier in suppliers %}
+            <li>{{ supplier.name }}</li>
+        {% endfor %}
+    </ul>
+    <br>
+    <a href="{% url 'index' %}">Back to Home</a>
+
+{% endblock %}

@@ -1,0 +1,28 @@
+/* Typography */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/* Colors */
+body {
+    background-color: #020000;
+    color: #fffefe;
+}
+
+a {
+    color: #ff0000; /* Red color for links */
+}
+
+/* Layout */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* Center content horizontally */
+    padding: 0 20px; /* Add padding to container */
+}

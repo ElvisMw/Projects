@@ -1,0 +1,12 @@
+<!-- inventory/templates/inventory/inventory_confirm_delete.html -->
+{% extends 'inventory/base.html' %}
+
+{% block content %}
+    <h1>Are you sure you want to delete {{ inventory_item.product.name }}?</h1>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Yes, delete</button>
+    </form>
+    <br>
+    <a href="{% url 'index' %}">Back to Home</a>
+{% endblock %}

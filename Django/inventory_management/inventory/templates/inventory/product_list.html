@@ -1,0 +1,16 @@
+{% extends 'inventory/base.html' %}
+
+{% block content %}
+    <h1>Product List</h1>
+    <a href="{% url 'product_create' %}">Add New Product</a>
+    <ul>
+        {% for product in products %}
+            <li>{{ product.name }} - {{ product.description }} - ${{ product.price }}
+                <a href="{% url 'update_product' product.pk %}">Edit</a>
+                <a href="{% url 'delete_product' product.pk %}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+    <br>
+    <a href="{% url 'index' %}">Back to Home</a>
+{% endblock %}
