@@ -1,0 +1,11 @@
+1: Activate your virtual environment if you have not already:
+source <virtual_env_name>/bin/activate
+
+2 Create a new file named requirements.txt in your project directory.
+django
+
+- These lines specify the required packages (requests and Django). Each package should be listed on a separate line in the file.
+
+3. Save the requirements.txt file.
+- Now, you can use this requirements.txt file to install the specified dependencies in another environment using the:
+[pip install -r requirements.txt] command.
