@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center; /* Align all text to center */
+    text-align: left; /* Align all text to center */
 }
 
 h1 {
@@ -39,5 +39,36 @@ a {
 }
 
 .shake {
-    animation: shake 0.5s;
+    animation: shake 0.09s;
+}
+
+
+/* Primary Button Style */
+.primary-btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* Secondary Button Style */
+.secondary-btn {
+    background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
 }

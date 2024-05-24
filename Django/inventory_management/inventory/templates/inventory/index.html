@@ -2,7 +2,33 @@
 {% extends 'inventory/base.html' %}
 
 {% block content %}
-    <a href="{% url 'supplier_list' %}">Suppliers</a>
-    <a href="{% url 'product_list' %}">Products</a>
-    <a href="{% url 'inventory_list' %}">Inventory</a>
+    <header class="header">
+        <nav class="navbar">
+            <button class="primary-btn"><a href="{% url 'supplier_list' %}">Suppliers</a></button>
+            <button class="secondary-btn"><a href="{% url 'product_list' %}">Products</a></button>
+            <button class="primary-btn"><a href="{% url 'inventory_list' %}">Inventory</a></button>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Manage Your Inventory Efficiently</h2>
+            <p>Track your products, suppliers, and inventory levels with ease.</p>
+        </section>
+
+        <section class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Easy Supplier Management</li>
+                <li>Comprehensive Product Details</li>
+                <li>Real-Time Inventory Tracking</li>
+                <li>User-Friendly Interface</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Inventory Management System</p>
+    </footer>
 {% endblock %}

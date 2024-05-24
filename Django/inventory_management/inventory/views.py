@@ -9,7 +9,6 @@ def index(request):
     """
     return render(request, 'inventory/index.html')
 
-
 def home(request):
     """
     Renders the home page and displays all inventory items.
