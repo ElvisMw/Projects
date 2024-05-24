@@ -12,6 +12,8 @@
 
 The Inventory Management System is a web-based application designed to help businesses manage their inventory efficiently. It allows users to track products, suppliers, and inventory levels, providing real-time insights into stock availability and supply chain management.
 
+![Inventory Management System](inventory_pic1.JPG)
+
 ## Installation <a name="installation"></a>
 
 To install the Inventory Management System, follow these steps:
