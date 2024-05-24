@@ -3,6 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    text-align: center; /* Align all text to center */
 }
 
 h1 {
@@ -25,4 +26,18 @@ a {
     max-width: 1200px;
     margin: 0 auto; /* Center content horizontally */
     padding: 0 20px; /* Add padding to container */
+}
+
+/* Shake Animation */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    10%, 90% { transform: translateX(-10px); }
+    20%, 80% { transform: translateX(10px); }
+    30%, 50%, 70% { transform: translateX(-10px); }
+    40%, 60% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+}
+
+.shake {
+    animation: shake 0.5s;
 }

@@ -5,9 +5,10 @@
     <title>INVENTORY SYSTEM</title>
     <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
 </head>
-<body>
+<body class="shake">
     <div class="container">
         <h1>INVENTORY SYSTEM</h1>
+        <p>Current Date and Time: {% now "l, F jS Y - h:i A" %}</p>
         {% block content %}{% endblock %}
     </div>
 </body>
