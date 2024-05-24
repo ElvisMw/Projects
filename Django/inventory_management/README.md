@@ -16,8 +16,8 @@ The Inventory Management System is a web-based application designed to help busi
 
 To install the Inventory Management System, follow these steps:
 
-1. Clone the repository from GitHub: `git clone https://github.com/yourusername/inventory-management.git`
-2. Navigate to the project directory: `cd inventory-management`
+1. Clone the repository from GitHub: `https://github.com/ElvisMw/Projects/tree/main/Django/inventory_management`
+2. Navigate to the project directory: `cd inventory_management`
 3. Install the required dependencies: `pip install -r requirements.txt`
 4. Run the migration to set up the database: `python manage.py migrate`
 5. Start the development server: `python manage.py runserver`

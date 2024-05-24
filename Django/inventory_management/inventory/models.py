@@ -21,6 +21,6 @@ class Product(models.Model):
 class Inventory(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     quantity = models.IntegerField()
-
+    location = models.CharField(max_length=100, default='Warehouse')
     def __str__(self):
         return f"{self.product.name} - {self.location}"

@@ -2,11 +2,11 @@
 
 {% block content %}
     <h1>Supplier List</h1>
-    <ul>
+    <ol start="1">
         {% for supplier in suppliers %}
             <li>{{ supplier.name }}</li>
         {% endfor %}
-    </ul>
+    </ol>
     <br>
     <a href="{% url 'index' %}">Back to Home</a>
 

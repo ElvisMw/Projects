@@ -3,14 +3,14 @@
 {% block content %}
     <h1>Product List</h1>
     <a href="{% url 'product_create' %}">Add New Product</a>
-    <ul>
+    <ol start="1">
         {% for product in products %}
             <li>{{ product.name }} - {{ product.description }} - ${{ product.price }}
                 <a href="{% url 'update_product' product.pk %}">Edit</a>
                 <a href="{% url 'delete_product' product.pk %}">Delete</a>
             </li>
         {% endfor %}
-    </ul>
+    </ol>
     <br>
     <a href="{% url 'index' %}">Back to Home</a>
 {% endblock %}
